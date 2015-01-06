@@ -1,0 +1,72 @@
+# Author: FuDesign2008
+#
+# JavaScript versions -- from the TextMate bundle + some additions
+# for underscore matchers
+#
+extends javascript
+
+#
+# Collections
+#
+snippet _eac "_.each(list, function(val, key))"
+_.each(${1:list}, function(val${2:, key}) {
+    ${VISUAL}$0
+});
+endsnippet
+
+
+snippet _map "_.map(list, function(val, key))"
+_.map(${1:list}, function(val${2:, key}) {
+    return ${VISUAL}$0;
+});
+endsnippet
+
+snippet _fil "_.filter(list, function(val, key))"
+_.filter(${1:list}, function(val${2:, key}) {
+    if (${VISUAL}$0) {
+        return true;
+    }
+});
+endsnippet
+
+
+snippet _som "_.some(list, function(val, key))"
+_.some(${1:list}, function(val${2:, key}) {
+    if (${VISUAL}$0) {
+        return true;
+    }
+});
+endsnippet
+
+snippet _eve "_.every(list, function(val, key))"
+_.every(${1:list}, function(val${2:, key}) {
+    if (${VISUAL}$0) {
+        return true;
+    }
+});
+endsnippet
+
+#
+# Arrays
+#
+snippet _ind "_.indexOf(array, value)"
+_.indexOf(${1:array}, ${2:value});
+endsnippet
+
+snippet _inde "_.indexOf(array, value) > -1"
+_.indexOf(${1:array}, ${2:value}) > -1
+endsnippet
+
+snippet _index "_.indexOf(array, value) === -1"
+_.indexOf(${1:array}, ${2:value}) === -1
+endsnippet
+
+
+#
+# Functions
+#
+
+#
+# Objects
+#
+
