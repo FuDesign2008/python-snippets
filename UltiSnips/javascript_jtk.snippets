@@ -1,0 +1,47 @@
+#
+# JavaScript versions -- from the TextMate bundle + some additions
+# for ynote jtk framework matchers
+#
+extends javascript
+
+#
+# jtk framework
+#
+
+snippet def "define - return function" !
+/**
+ * ${VISUAL}$0
+ *
+ * @author fuyg
+ * @date  `date +%Y-%m-%d`
+ */
+define(function (require) {
+    var console = require('./web/console'),
+        _ = require('./core/underscore');
+
+    return function () {
+    };
+});
+endsnippet
+
+snippet defi "define - return object" !
+/**
+ * ${VISUAL}$0
+ *
+ * @author fuyg
+ * @date  `date +%Y-%m-%d`
+ */
+define(function (require) {
+    var console = require('./web/console'),
+        _ = require('./core/underscore');
+
+    return {
+    };
+});
+endsnippet
+
+
+snippet req "NAME = require('path')" !
+${1:NAME} = require('${2:path}'),
+endsnippet
+
