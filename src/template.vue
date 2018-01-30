@@ -5,6 +5,6 @@
 </template>
 <script src="./vue.comp.js">
 </script>
-<style scoped>
+<style lang="scss" scoped>
 
 </style>
