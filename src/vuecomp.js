@@ -13,7 +13,9 @@ export default {
   // props: [],
 
   data() {
-    return {}
+    return {
+      // TODO
+    }
   },
 
   computed: {
@@ -21,11 +23,21 @@ export default {
       get() {},
       set() {},
     },
+
+    // TODO
   },
 
-  watch: {},
+  watch: {
+    // TODO
+  },
 
-  methods: {},
+  methods: {
+    // TODO
+  },
+
+  filters: {
+    // TODO
+  },
 
   /**
    * life cycle
