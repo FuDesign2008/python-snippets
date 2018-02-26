@@ -5,8 +5,10 @@
 export default {
   namespaced: true,
 
-  state: {
-    // TODO
+  state() {
+    return {
+      // TODO
+    }
   },
 
   getters: {

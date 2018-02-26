@@ -57,8 +57,10 @@ snippet vuexm "create vuex module"
 export default {
   namespaced: true,
 
-  state: {
-    // TODO
+  state() {
+    return {
+      // TODO
+    }
   },
 
   getters: {
