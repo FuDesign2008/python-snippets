@@ -1,6 +1,11 @@
 /**
  * @prettier
  */
+/**
+ *
+ * @author fuyg
+ * @date  `date +%Y-%m-%d`
+ */
 
 export default {
   namespaced: true,

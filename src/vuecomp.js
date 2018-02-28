@@ -1,6 +1,11 @@
 /**
  * @prettier
  */
+/**
+ *
+ * @author fuyg
+ * @date  `date +%Y-%m-%d`
+ */
 import { mapState, mapGetters, mapActions } from 'vuex'
 
 export default {
