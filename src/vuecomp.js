@@ -17,6 +17,8 @@ export default {
 
   // props: {},
 
+  // mixins: [],
+
   data() {
     return {
       // TODO
