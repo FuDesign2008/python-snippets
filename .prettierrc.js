@@ -15,8 +15,6 @@ module.exports = {
       files: ['.*.js', '*.js', '*.ts', 'json'],
       options: {
         tabWidth: 2,
-        requirePragma: true,
-        insertPragma: true,
       },
     },
   ],
