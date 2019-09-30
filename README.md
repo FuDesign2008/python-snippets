@@ -1,3 +1,3 @@
-# fu-snippets
+# python-snippets
 
-FuDesign2008's Snippets
+Python snippets
